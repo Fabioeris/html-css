@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="port-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS, id, classes, pseudoclasses e pseudoelementos e fontes</title>
+    <style>
+        @font-face {
+            font-family:'cardinal' ;
+            src: url(Cardinal.ttf) format('truetype');
+        }
+        
+        body {
+            background: linear-gradient(to bottom, #4B4952, #004F4D, #1F2024);
+        }   
+
+        h1{
+        font-family: 'cardinal';
+        font-size: 3em;
+        background-color: #A68F97;
+        text-align: center;
+        
+    }
+
+        h2{
+        font-size: 1.5em;
+        font-family: 'cardinal';
+        background-color:#1F2024 ;
+        color: white;
+        text-align: center;
+    }
+
+    h2:hover{
+        background: yellow;
+        color: red;
+    }
+
+    h2 > p {
+        display: none;
+    }
+
+    p{
+        color: black;
+        font-size: 1em;
+    }
+
+    h2:hover > p {
+        display: block;
+    
+    }
+
+    li{
+        color: white;
+        font-size: 1.5em;
+    }
+
+
+   
+    </style>
+</head>
+<body>
+    <h1>Cemitério dos Deuses</h1>
+        <h2>Raças
+        <p style="font-size: 0.5em;">O melhor rpg</p>
+        </h2>
+    <ul>
+        <li>Arzanos</li>
+            <p>senhores das florestas</p>
+        <li>Herons</li>
+            <p>soberanos da áurea</p>
+        <li>Ulgros</li>
+            <p>dominadores dos raios</p>
+        <li>Daymarlons</li>
+            <p>manipuladores da tecnologia</p>
+    </ul>
+    <hr>
+    <h2>Poderes
+        <p style="font-size: 0.5em;">O melhor rpg</p>
+    </h2>
+    <!--<ul>
+        <li>Arzanos</li>
+        <ol type = "a">
+            <li>hirtus</li>
+            <li>sintonizar o ambiente</li>
+            <li>dominação do fogo</li>
+        </ol>
+        <br>
+
+        <li>Herons</li>
+        <ol type = "a">
+            <li>Sintonizar áurea</li>
+            <li>Expulsão de áurea</li>
+            <li>Explosão de áurea</li>
+        </ol>
+        <br>
+
+        <li>Ulgros</li>
+        <ol type = "a">
+            <li>Reltroa</li>
+        </ol>
+        <br>
+
+        <li>Daymarlons</li>
+        <ol type = "a">
+            <li>superinteligencia</li>
+        </ol>
+    </ul> -->
+</body>
+</html>
